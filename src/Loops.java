@@ -11,24 +11,27 @@ public class Loops {
     }
 
     public void ForLoop() {
+        // For loop example
+        // initialization; condition; increment/decrement
         for (int i = 0; i < 5; i++) {
             System.out.println("For loop iteration: " + i);
         }
     }
     public void WhileLoop() {
-        int j = 0;
-        while (j < 5) {
+        int j = 0;//initialization
+        while (j < 5)// condition
+        {
             System.out.println("While loop iteration: " + j);
-            j++;
+            j++;//increment/decrement
         }
     }
 
     public void DoWhileLoop() {
-        int k = 0;
+        int k = 0;//initialization
         do {
             System.out.println("Do-while loop iteration: " + k);
-            k++;
-        } while (k < 5);
+            k++;//increment/decrement
+        } while (k < 5);//condition
     }
     
     public static void nestedLoops() {
