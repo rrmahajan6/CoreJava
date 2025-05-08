@@ -1,3 +1,13 @@
+/**
+ * Definition: Polymorphism allows objects to take on multiple forms. It enables a single interface to represent different underlying forms (data types or classes).
+Types:
+Compile-time Polymorphism (Method Overloading): Same method name but different parameter lists.
+Runtime Polymorphism (Method Overriding): Subclass provides a specific implementation of a method defined in the parent class.
+ * 
+ * 
+ */
+
+
 package Inheritance;
 
 public class MethodOverLoad {
