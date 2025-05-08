@@ -18,8 +18,8 @@ public class MethodOverride extends MethodOverLoad {
 
     public static void main(String[] args) {
         MethodOverride obj = new MethodOverride();
-        obj.add(5, 10); // Calls the overridden method
-        obj.add(5, 10, 15); // Calls the overridden method
+        obj.add(5, 10);
+        obj.add(5, 10, 15);
     }
-    
+
 }

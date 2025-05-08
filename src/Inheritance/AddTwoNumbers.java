@@ -1,6 +1,6 @@
 package Inheritance;
 
-public class AddTwoNumbers extends MathOperations{
+public class AddTwoNumbers extends MathOperations {
     public void addTwoNumbers(int a, int b) {
         int sum = a + b;
         System.out.println("The sum of " + a + " and " + b + " is: " + sum);

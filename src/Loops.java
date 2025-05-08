@@ -17,23 +17,24 @@ public class Loops {
             System.out.println("For loop iteration: " + i);
         }
     }
+
     public void WhileLoop() {
-        int j = 0;//initialization
+        int j = 0;// initialization
         while (j < 5)// condition
         {
             System.out.println("While loop iteration: " + j);
-            j++;//increment/decrement
+            j++;// increment/decrement
         }
     }
 
     public void DoWhileLoop() {
-        int k = 0;//initialization
+        int k = 0;// initialization
         do {
             System.out.println("Do-while loop iteration: " + k);
-            k++;//increment/decrement
-        } while (k < 5);//condition
+            k++;// increment/decrement
+        } while (k < 5);// condition
     }
-    
+
     public static void nestedLoops() {
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
@@ -41,13 +42,15 @@ public class Loops {
             }
         }
     }
+
     // Enhanced for loop (for-each loop)
     public static void enhancedForLoop() {
-        int[] numbers = {1, 2, 3, 4, 5};
+        int[] numbers = { 1, 2, 3, 4, 5 };
         for (int number : numbers) {
             System.out.println("Enhanced for loop iteration: " + number);
         }
     }
+
     // Break and continue statements
     public static void breakAndContinue() {
         for (int i = 0; i < 10; i++) {
@@ -66,5 +69,5 @@ public class Loops {
             System.out.println("Loop iteration: " + j);
         }
     }
-    
+
 }
