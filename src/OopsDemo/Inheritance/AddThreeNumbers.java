@@ -8,6 +8,12 @@ public class AddThreeNumbers extends AddTwoNumbers {
         addTwoNumbers(a, b);
         // accessing grandparent class method
         MathOperationsMethod();
+        // accessing grandparent class static method
+        number();
+        // accessing child class static method
+        AddTwoNumbers.number();
+        // accessing grandparent class static method
+        MathOperations.number();
     }
 
     public static void main(String[] args) {
@@ -42,5 +48,9 @@ public class AddThreeNumbers extends AddTwoNumbers {
         // int sum = a + b;
         // System.out.println("The sum of " + a + " and " + b + " is: " + sum);
         super.addTwoNumbers(a, b);
+        number();
+    }
+    public static void number() {
+        System.out.println("This is a static method from the AddThreeNumbers class.");
     }
 }
