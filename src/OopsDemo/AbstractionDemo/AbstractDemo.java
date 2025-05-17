@@ -70,7 +70,7 @@ Abstract classes can include concrete methods that encapsulate sensitive logic, 
 By hiding implementation details, restricting access, and enforcing a contract, abstract classes ensure that only authorized and controlled behavior is exposed, enhancing the overall security of the application.
 */
 
-package OopsDemo.AbstractionDemo;
+package oopsdemo.AbstractionDemo;
 
 public abstract class AbstractDemo {
     public abstract void display(); // Abstract method with no body

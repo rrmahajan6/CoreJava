@@ -6,7 +6,7 @@ Subclasses can override methods of the parent class (method overriding).
  * 
  */
 
-package OopsDemo.Inheritance;
+package oopsdemo.Inheritance;
 
 public class MathOperations {
     public void MathOperationsMethod() {

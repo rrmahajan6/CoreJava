@@ -1,4 +1,4 @@
-package OopsDemo.Inheritance;
+package oopsdemo.Inheritance;
 
 public class AddTwoNumbers extends MathOperations {
     public void addTwoNumbers(int a, int b) {

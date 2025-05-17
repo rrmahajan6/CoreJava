@@ -7,7 +7,7 @@ Runtime Polymorphism (Method Overriding): Subclass provides a specific implement
  */
 
 
-package OopsDemo.Inheritance;
+package oopsdemo.Inheritance;
 
 public class MethodOverLoad {
     public void add(int a, int b) {

@@ -1,4 +1,4 @@
-package OopsDemo.AbstractionDemo;
+package oopsdemo.AbstractionDemo;
 
 public class ConcreteDemo extends AbstractDemo {
     @Override

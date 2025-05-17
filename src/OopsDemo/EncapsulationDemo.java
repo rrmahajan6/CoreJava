@@ -1,4 +1,4 @@
-package OopsDemo;
+package oopsdemo;
 /*Example of encapsulation in a class
 Encapsulation is a fundamental concept in object-oriented programming (OOP) that restricts direct access to an object's data and methods.
 It allows you to control how the data is accessed and modified, promoting data hiding and abstraction.

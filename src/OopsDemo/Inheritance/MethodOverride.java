@@ -1,4 +1,4 @@
-package OopsDemo.Inheritance;
+package oopsdemo.Inheritance;
 
 public class MethodOverride extends MethodOverLoad {
     // Overriding the add method from MethodOverLoad class
