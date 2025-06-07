@@ -34,6 +34,7 @@ Not Synchronized: ArrayList is not thread-safe. Use Vector or Collections.synchr
 Performance: Slower than arrays for primitive types due to boxing/unboxing overhead. Use ArrayList<Integer> instead of int[] for primitive types.
  */
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class ArrayListDemo {
@@ -136,5 +137,18 @@ public class ArrayListDemo {
             String item = listIterator.next();
             System.out.println(item);
         }
+        ArrayList<Integer> list1 = new ArrayList<>();
+        ArrayList<Boolean> list2 = new ArrayList<Boolean>();
+        ArrayList<Double> list3 = new ArrayList<Double>();
+        ArrayList<Character> list4 = new ArrayList<Character>();
+        ArrayList<Float> list5 = new ArrayList<Float>();
+        ArrayList<Long> list6 = new ArrayList<Long>();
+        ArrayList<Short> list7 = new ArrayList<Short>();
+        ArrayList<Byte> list8 = new ArrayList<Byte>();
+        ArrayList<String> list9 = new ArrayList<String>();
+        ArrayList<Object> list10 = new ArrayList<Object>();
+        ArrayList<ArrayList<String>> list11 = new ArrayList<ArrayList<String>>();
+        // ArrayList<int> list12 = new ArrayList<int>();
+        // Note: ArrayList does not support primitive types directly, so we use wrapper classes like Integer, Boolean, etc.
     }
 }

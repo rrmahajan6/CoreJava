@@ -32,7 +32,7 @@ public class LinkedListDemo {
         linkedList.add("Node1");
         linkedList.add("Node2");
         linkedList.add("Node3");
-
+        linkedList.get(1);
         // Print the LinkedList
         System.out.println("LinkedList: " + linkedList);
 

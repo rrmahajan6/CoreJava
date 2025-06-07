@@ -8,9 +8,9 @@ public class AddThreeNumbers extends AddTwoNumbers {
         addTwoNumbers(a, b);
         // accessing grandparent class method
         MathOperationsMethod();
-        // accessing grandparent class static method
+        // accessing parent class static method
         number();
-        // accessing child class static method
+        // accessing parent class static method
         AddTwoNumbers.number();
         // accessing grandparent class static method
         MathOperations.number();
@@ -32,7 +32,7 @@ public class AddThreeNumbers extends AddTwoNumbers {
          * MathOperations obj2), you can only call methods that are defined in the
          * parent class,
          * even if the actual object is of a subclass type
-         * eference Type Determines Accessible Methods:
+         * reference Type Determines Accessible Methods:
          * In Java, the methods that can be called on an object are determined by the
          * reference type,
          * not the actual object type.
@@ -40,6 +40,7 @@ public class AddThreeNumbers extends AddTwoNumbers {
         // obj2.AddTwoNumbers(0, 0);
         obj2.MathOperationsMethod();
         // obj2.addThreeNumbers(0, 0, 0); // This will cause a compile-time error
+        // obj2.addTwoNumbers(0, 0); // This will work because addTwoNumbers is defined in AddTwoNumbers
     }
 
     public void addTwoNumbers(int a, int b) {

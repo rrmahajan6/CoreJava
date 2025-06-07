@@ -47,7 +47,6 @@ public class StackDemo {
     public static void main(String[] args) {
         // Create a Stack
         Stack<String> stack = new Stack<>();
-
         // Push elements onto the Stack
         stack.push("Element1");
         stack.push("Element2");

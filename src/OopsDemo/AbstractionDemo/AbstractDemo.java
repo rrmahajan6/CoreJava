@@ -1,5 +1,5 @@
 /*
- Abstraction in Java is a process of hiding the implementation details and showing only the essential features of an object. It focuses on what an object does rather than how it does it. Abstraction is achieved in Java using abstract classes and interfaces.
+Abstraction in Java is a process of hiding the implementation details and showing only the essential features of an object. It focuses on what an object does rather than how it does it. Abstraction is achieved in Java using abstract classes and interfaces.
 
 Key Points about Abstraction:
 Abstract Class:
@@ -77,6 +77,12 @@ public abstract class AbstractDemo {
 
     public void show() { // Concrete method with a body
         System.out.println("This is a concrete method in the abstract class.");
+    }
+    public static void staticMethod() { // Static method in the abstract class
+        System.out.println("This is a static method in the abstract class.");
+    }
+    public void number() { // Non-static method in the abstract class
+        System.out.println("This is a non-static method in the abstract class.");
     }
 
     public static void main(String[] args) {

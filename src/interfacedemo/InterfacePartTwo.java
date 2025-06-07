@@ -16,5 +16,4 @@ public interface  InterfacePartTwo {
     static void staticMethod() {
         System.out.println("This is a static method in the interface.");
     }
-    
 }

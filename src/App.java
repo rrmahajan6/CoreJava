@@ -4,15 +4,17 @@ public class App {
 
    public static void main(String[] args) {
       System.out.println("Hello, World!");
-
+      System.out.println(Color.Rahul);
+      System.out.println(Color.Mahajan);
+      System.out.println(Color.Sapna);
    }
-
-   public void test() {
-      System.out.println("test method called");
+   public enum Color {
+      Rahul, Mahajan, Sapna, Pawar
    }
-
-   public static void testStatic() {
-      
+   public enum Color2 {
+      Rahul, 
+      Mahajan, 
+      Sapna, 
+      Pawar
    }
-
 }

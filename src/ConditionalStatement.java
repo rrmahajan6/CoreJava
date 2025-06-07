@@ -1,3 +1,4 @@
+
 public class ConditionalStatement {
     /*
      * Conditional statements in Java are used to perform different actions based on
@@ -19,6 +20,7 @@ public class ConditionalStatement {
      * condition.
      */
     public static void main(String[] args) {
+        System.out.println(App.Color.Rahul);
         int number = 10;
 
         // if statement
